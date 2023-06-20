@@ -4,3 +4,133 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+#topBar {
+  position: absolute;
+  background-color: rgb(18, 18, 33);
+  top: 0;
+  right: 0;
+  height: 7vh;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#mainMenu {
+  margin: 10px;
+  width: 900px;
+  font-family: sans-serif;
+}
+
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+#mainMenu a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
+}
+
+#title {
+  position: absolute;
+  top: 0%;
+  right: 75%;
+  transform: translate(0, -50%);
+  color: #fff;
+}
+
+#loginButton {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+#mainNav {
+  position: absolute;
+  background-color: orangered;
+  top: 6%;
+  right: 0;
+  height: 3vh;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#mainNav ul {
+  list-style: none;
+  padding: 100;
+  margin: 0;
+}
+
+#mainNav li {
+  display: inline-block;
+  margin-right: 250px; 
+  border: none;
+
+}
+
+#mainNav li:last-child {
+  margin-right: 0; 
+}
+
+#mainNav a {
+  display: block;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+#mainContent {
+  padding: 20px;
+  width: 50%; 
+  margin-top: 70px;
+  margin-left: 50%;
+  color: #fff; 
+  box-sizing: border-box;
+}
+
+#imageContainer {
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 130px;
+}
+
+.imageBox {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imageBox h3 {
+  margin: 10;
+  color: #fff;
+}
+
+.imageBox img {
+  width: 290px;
+  height: 195px;
+  border: 2px solid tan;
+  object-fit: cover;
+}
